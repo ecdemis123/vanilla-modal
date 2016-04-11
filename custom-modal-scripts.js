@@ -1,13 +1,12 @@
-'use strict'
+(function() {
 
-(() => {
-
-  window.alert(text) => {
-    customAlertModal(text);
+  window.alert = function(text) {
+    customAlertModal(text)
   }
 
-  customAlertModal(text) => {
-    getElementsByTagName('body').appendChild('div')
+  customAlertModal = function(text) {
+    //append div to the body
+    document.getElementById('test').innerHTML = text;
   }
 
 })();
