@@ -1,12 +1,12 @@
 input[type=button] {
-    background-color: #2A6192;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+  background-color: #2A6192;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 
 
@@ -16,18 +16,13 @@ input[type=button] {
   z-index: 1;
   top: -200px;
   width: 100%;
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -ms-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
 }
 
 .modal-content {
   background-color: #fefefe;
   padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
+  border: 2px solid #AF2880;
+  width: 40%;
 }
 
 .slide-in {
@@ -47,4 +42,13 @@ input[type=button] {
   -moz-transition: visibility 0s .5s, opacity .5s linear;
   -o-transition: visibility 0s .5s, opacity .5s linear;
   transition: visibility 0s .5s, opacity .5s linear;
+}
+
+@media only screen and (max-width: 767px) {
+  .modal-content {
+    background-color: #fefefe;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 100%;
+  }
 }
