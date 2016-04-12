@@ -7,9 +7,9 @@
   }
 
   customAlertModal = function(siteName, messageBody) {
+    modal.className = "modal";
     document.querySelector('.modal-content p').innerHTML = siteName + " says " + messageBody;
-    modal.className = "modal slide-in";
-    // modal.style.display = "block";
+    modal.className += " slide-in";
   }
 
   closeModal = function() {
