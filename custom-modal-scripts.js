@@ -13,4 +13,8 @@
     modal.style.display = "block";
   }
 
+  closeModal = function() {
+    modal.style.display = "none";
+  }
+
 })();
