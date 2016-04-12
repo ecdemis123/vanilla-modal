@@ -9,12 +9,13 @@
   }
 
   customAlertModal = function(siteName, messageBody) {
-    document.querySelector('#awesomeModal p').innerHTML = siteName + " says " + messageBody;
+    modal.className = "modal";
+    document.querySelector('.modal-content p').innerHTML = siteName + " says " + messageBody;
     modal.style.display = "block";
   }
 
   closeModal = function() {
-    modal.style.display = "none";
+    modal.className += " fade-out";
   }
 
 })();
