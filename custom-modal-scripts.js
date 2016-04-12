@@ -1,12 +1,16 @@
 (function() {
 
-  window.alert = function(sitename, messageBody) {
+  var modal = document.getElementById("awesomeModal");
+  var button = document.getElementById("openModalButton");
+
+
+  window.alert = function(siteName, messageBody) {
     customAlertModal(siteName, messageBody)
   }
 
   customAlertModal = function(siteName, messageBody) {
-    //append div to the body
-    document.getElementById('test').innerHTML = text;
+    document.querySelector('#awesomeModal p').innerHTML = siteName + " says " + messageBody;
+    modal.style.display = "block";
   }
 
 })();

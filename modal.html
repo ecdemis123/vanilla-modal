@@ -6,11 +6,13 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <input type="button" value="show me the new alert modal!" onclick="alert('Vanilla Modal', 'messageBodys')">
-
-
-
-
+  <center>
+    <input type="button" id="openModalButton" value="show me the new alert modal!" onclick="alert('Vanilla Modal', 'messageBody')">
+    <div class="modal" id="awesomeModal">
+      <p>Placeholder Modal Text</p>
+      <input type="button" id="closeModalButton" value="OK">
+    </div>
+  </center>
   <script src="custom-modal-scripts.js"></script>
 </body>
 </html>
