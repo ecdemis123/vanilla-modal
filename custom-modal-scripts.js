@@ -13,6 +13,7 @@
   }
 
   closeModal = function() {
+    modal.classList.remove("slide-in");
     modal.className += " fade-out";
   }
 
