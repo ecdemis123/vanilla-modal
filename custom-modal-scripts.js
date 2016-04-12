@@ -1,7 +1,7 @@
+var modal = document.getElementById("awesomeModal");
+var placeholderText = document.getElementById("placeholderText");
 
 var alertModal  = function(siteName, messageBody) {
-  var modal = document.getElementById("awesomeModal");
-  var placeholderText = document.getElementById("placeholderText");
   if (modal.classList.contains("fade-out")) {
     modal.classList.remove("fade-out");
   }
