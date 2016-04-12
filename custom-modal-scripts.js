@@ -11,7 +11,7 @@
     if(modal.classList.contains("fade-out")){
       modal.classList.remove("fade-out");
     }
-    modalText.innerHTML = siteName + " says " + messageBody;
+    modalText.innerHTML = siteName + " says: " + messageBody;
     modal.classList.add("slide-in");
   }
 
