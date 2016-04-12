@@ -3,7 +3,7 @@ body {
 }
 
 input[type=button] {
-  background-color: #AF2880; 
+  background-color: #AF2880;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -11,6 +11,11 @@ input[type=button] {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  border-radius: 5px;
+}
+
+input[type=button]:hover {
+  background-color: #6A266F;
 }
 
 .modal {
@@ -25,6 +30,7 @@ input[type=button] {
   background-color: #ffffff;
   padding: 20px;
   border: 2px solid #2A6192;
+  border-radius: 5px;
   width: 40%;
 }
 
