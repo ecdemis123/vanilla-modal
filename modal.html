@@ -11,11 +11,11 @@
     <div class="modal" id="awesomeModal">
       <div class="modal-content">
         <p id="modal-text">Placeholder Modal Text</p>
-        <input type="button" id="closeModalButton" value="OK" onclick="closeModal()">
+        <input type="button" id="closeModalButton" value="OK" onclick="modal.close()">
       </div>
     </div>
 
-    <input type="button" id="openModalButton" value="show me the new alert modal!" onclick="alert('Vanilla Modal', 'check out this awesome modal!')">
+    <input type="button" id="openModalButton" value="show me the new alert modal!" onclick="modal.open('Vanilla Modal', 'check out this awesome modal!');">
   </center>
   <script src="custom-modal-scripts.js"></script>
 </body>
